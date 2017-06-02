@@ -35,7 +35,7 @@ namespace DataAccessLayer.DataAccessMappers
             dUser.Email = tableRow["Email"].ToString();
             dUser.Username = tableRow["Username"].ToString();
             dUser.Password = tableRow["Password"].ToString();
-            dUser.H_Id = (int)tableRow["H_Id"];
+            dUser.House_Id = (int)tableRow["House_Id"];
             dUser.RoleID = (int)tableRow["RoleID"];
             return dUser;
         }
