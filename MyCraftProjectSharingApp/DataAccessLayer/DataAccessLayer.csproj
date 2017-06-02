@@ -43,12 +43,16 @@
   <ItemGroup>
     <Compile Include="CraftsDataAccess.cs" />
     <Compile Include="DataAccessMappers\DataAccessMapperCrafts.cs" />
+    <Compile Include="DataAccessMappers\DataAccessMapperDifficulty.cs" />
     <Compile Include="DataAccessMappers\DataAccessMapperHouses.cs" />
     <Compile Include="DataAccessMappers\DataAccessMapperProjects.cs" />
+    <Compile Include="DataAccessMappers\DataAccessMapperRoles.cs" />
     <Compile Include="DataAccessMappers\DataAccessMapperUsers.cs" />
     <Compile Include="DataAccessObjects\DataAccessCrafts.cs" />
+    <Compile Include="DataAccessObjects\DataAccessDifficulty.cs" />
     <Compile Include="DataAccessObjects\DataAccessHouses.cs" />
     <Compile Include="DataAccessObjects\DataAccessProjects.cs" />
+    <Compile Include="DataAccessObjects\DataAccessRoles.cs" />
     <Compile Include="DataAccessObjects\DataAccessUsers.cs" />
     <Compile Include="DataSets\CraftsDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -75,6 +79,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>UsersDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DifficultyDataAccess.cs" />
     <Compile Include="HousesDataAccess.cs" />
     <Compile Include="ProjectsDataAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -83,6 +88,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="RolesDataAccess.cs" />
     <Compile Include="UsersDataAccess.cs" />
   </ItemGroup>
   <ItemGroup />
