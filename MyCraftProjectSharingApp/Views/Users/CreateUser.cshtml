@@ -1,0 +1,113 @@
+﻿@model MyCraftProjectSharingApp.Models.ViewModel
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register as a User</h2>
+<br />
+<br />
+@using (Html.BeginForm("CreateUser", "Users", FormMethod.Post))
+{
+    if (TempData["UsernameError"] != null)
+    {
+        <p><font color="red">@TempData["UsernameError"].ToString()</font></p>
+    }
+    if (TempData["CreateError"] != null)
+    {
+        <p><font color="red">@TempData["CreateError"].ToString()</font></p>
+    }
+    <div>
+        <div>
+            @Html.LabelFor(m => m.SingleUser.FirstName, new { @class = "LabelFormat"})
+            @Html.TextBoxFor(m => m.SingleUser.FirstName, new { @class = "form-control TextboxFormat"})
+            @Html.ValidationMessageFor(m => m.SingleUser.FirstName)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.SingleUser.LastName, new { @class = "LabelFormat" })
+            @Html.TextBoxFor(m => m.SingleUser.LastName, new { @class = "form-control TextboxFormat" })
+            @Html.ValidationMessageFor(m => m.SingleUser.LastName)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.SingleUser.Age, new { @class = "LabelFormat" })
+            @Html.TextBoxFor(m => m.SingleUser.Age, new { @class = "form-control TextboxFormat" })
+            @Html.ValidationMessageFor(m => m.SingleUser.Age)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.SingleUser.Gender, new { @class = "LabelFormat" })
+            @{ 
+                List<SelectListItem> genderItems = new List<SelectListItem>();
+                genderItems.Add(new SelectListItem
+                {
+                    Text = "",
+                    Value = ""
+                });
+                genderItems.Add(new SelectListItem
+                {
+                    Text = "Female",
+                    Value = "Female"
+                });
+                genderItems.Add(new SelectListItem
+                {
+                    Text = "Male",
+                    Value = "Male"
+                });
+                genderItems.Add(new SelectListItem
+                {
+                    Text = "Other",
+                    Value = "Other"
+                });
+            }
+            @Html.DropDownListFor(m => m.SingleUser.Gender, genderItems, new { @class = "form-control TextboxFormat" })
+        </div>
+        <div>
+            @Html.LabelFor(m => m.SingleUser.Email, new { @class = "LabelFormat" })
+            @Html.TextBoxFor(m => m.SingleUser.Email, new { @class = "form-control TextboxFormat" })
+            @Html.ValidationMessageFor(m => m.SingleUser.Email)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.SingleUser.Username, new { @class = "LabelFormat" })
+            @Html.TextBoxFor(m => m.SingleUser.Username, new { @class = "form-control TextboxFormat" })
+            @Html.ValidationMessageFor(m => m.SingleUser.Username)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.SingleUser.Password, new { @class = "LabelFormat" })
+            @Html.TextBoxFor(m => m.SingleUser.Password, new { @class = "form-control TextboxFormat" })
+            @Html.ValidationMessageFor(m => m.SingleUser.Password)
+        </div>
+        <div>
+            <p><strong><font color="purple">You only get sorted once...</font></strong></p>
+            @Html.LabelFor(m => m.SingleUser.H_Id, new { @class = "LabelFormat" })
+            @{
+                List<SelectListItem> houseItems = new List<SelectListItem>();
+                houseItems.Add(new SelectListItem
+                {
+                    Text = "",
+                    Value = ""
+                });
+                houseItems.Add(new SelectListItem
+                {
+                    Text = "Gryffindor",
+                    Value = "1"
+                });
+                houseItems.Add(new SelectListItem
+                {
+                    Text = "Slytherin",
+                    Value = "2"
+                });
+                houseItems.Add(new SelectListItem
+                {
+                    Text = "Ravenclaw",
+                    Value = "3"
+                });
+                houseItems.Add(new SelectListItem
+                {
+                    Text = "Hufflepuff",
+                    Value = "4"
+                });
+            }
+            @Html.DropDownListFor(m => m.SingleUser.H_Id, houseItems, new { @class = "form-control TextboxFormat" })
+        </div>
+        <br />
+        <input type="submit" value="Register" />
+    </div>
+}

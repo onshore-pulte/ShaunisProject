@@ -1,0 +1,83 @@
+﻿@model MyCraftProjectSharingApp.Models.ViewModel
+@using MyCraftProjectSharingApp.Models
+@{
+    ViewBag.Title = "CreateProject";
+}
+
+<h2>CreateProject</h2>
+<br />
+<br />
+@using (Html.BeginForm("CreateProject", "Projects", FormMethod.Post))
+{
+    if (Session["UserId"] != null && (int)Session["UserId"] != 1)
+    {
+        @Html.HiddenFor(m => m.SingleProject.U_Id)
+        <div>
+            <div>
+                @Html.LabelFor(m => m.SingleProject.ProjectName, new { @class = "LabelFormat" })
+                @Html.TextBoxFor(m => m.SingleProject.ProjectName, new { @class = "form-control TextboxFormat" })
+                @Html.ValidationMessageFor(m => m.SingleProject.ProjectName)
+            </div>
+            <div>
+                @Html.LabelFor(m => m.SingleProject.C_Id, new { @class = "LabelFormat" })
+                @{
+                    List<SelectListItem> craftItems = new List<SelectListItem>();
+                    craftItems.Add(new SelectListItem
+                    {
+                        Text = "",
+                        Value = ""
+                    });
+                    foreach (Crafts craft in Model.Crafts)
+                    {
+                        craftItems.Add(new SelectListItem
+                        {
+                            Text = craft.CraftName,
+                            Value = craft.CraftId.ToString()
+                        });
+                    }
+                    @Html.DropDownListFor(m => m.SingleProject.C_Id, craftItems, new { @class = "form-control TextboxFormat" })
+                }
+                @Html.ValidationMessageFor(m => m.SingleProject.C_Id)
+            </div>
+            <div>
+                @Html.LabelFor(m => m.SingleProject.Difficulty, new { @class = "LabelFormat" })
+                @{
+                    List<SelectListItem> projectItems = new List<SelectListItem>();
+                    projectItems.Add(new SelectListItem
+                    {
+                        Text = ""
+                    });
+                    projectItems.Add(new SelectListItem
+                    {
+                        Text = "Beginner",
+                        Value = "Beginner"
+                    });
+                    projectItems.Add(new SelectListItem
+                    {
+                        Text = "Easy",
+                        Value = "Easy"
+                    });
+                    projectItems.Add(new SelectListItem
+                    {
+                        Text = "Intermediate",
+                        Value = "Intermediate"
+                    });
+                    projectItems.Add(new SelectListItem
+                    {
+                        Text = "Experienced",
+                        Value = "Experienced"
+                    });
+                }
+                @Html.DropDownListFor(m => m.SingleProject.Difficulty, projectItems, new { @class = "form-control TextboxFormat" })
+                @Html.ValidationMessageFor(m => m.SingleProject.Difficulty)
+            </div>
+            <div>
+                @Html.LabelFor(m => m.SingleProject.ProjectBody, new { @class = "LabelFormat" })
+                @Html.TextAreaFor(m => m.SingleProject.ProjectBody, new { @class = "form-control TextboxFormat" })
+                @Html.ValidationMessageFor(m => m.SingleProject.ProjectBody)
+            </div>
+            <br />
+            <input type="submit" value="Add" />
+        </div>
+    }
+}

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AAAA2C63-6FE1-46BD-BAA5-38588B06D280}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataAccessLayer</RootNamespace>
+    <AssemblyName>DataAccessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CraftsDataAccess.cs" />
+    <Compile Include="DataAccessMappers\DataAccessMapperCrafts.cs" />
+    <Compile Include="DataAccessMappers\DataAccessMapperHouses.cs" />
+    <Compile Include="DataAccessMappers\DataAccessMapperProjects.cs" />
+    <Compile Include="DataAccessMappers\DataAccessMapperUsers.cs" />
+    <Compile Include="DataAccessObjects\DataAccessCrafts.cs" />
+    <Compile Include="DataAccessObjects\DataAccessHouses.cs" />
+    <Compile Include="DataAccessObjects\DataAccessProjects.cs" />
+    <Compile Include="DataAccessObjects\DataAccessUsers.cs" />
+    <Compile Include="DataSets\CraftsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CraftsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\DifficultyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DifficultyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\HousesDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HousesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ProjectsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\UsersDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HousesDataAccess.cs" />
+    <Compile Include="ProjectsDataAccess.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="UsersDataAccess.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSets\CraftsDataSet.xsc">
+      <DependentUpon>CraftsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\CraftsDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CraftsDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\CraftsDataSet.xss">
+      <DependentUpon>CraftsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DifficultyDataSet.xsc">
+      <DependentUpon>DifficultyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\DifficultyDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DifficultyDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\DifficultyDataSet.xss">
+      <DependentUpon>DifficultyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\HousesDataSet.xsc">
+      <DependentUpon>HousesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\HousesDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HousesDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\HousesDataSet.xss">
+      <DependentUpon>HousesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ProjectsDataSet.xsc">
+      <DependentUpon>ProjectsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ProjectsDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectsDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ProjectsDataSet.xss">
+      <DependentUpon>ProjectsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\UsersDataSet.xsc">
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\UsersDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UsersDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\UsersDataSet.xss">
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

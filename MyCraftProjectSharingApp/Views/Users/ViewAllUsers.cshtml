@@ -1,0 +1,70 @@
+﻿@model MyCraftProjectSharingApp.Models.ViewModel
+@using MyCraftProjectSharingApp.Models
+@{
+    ViewBag.Title = "ViewAllUsers";
+}
+
+
+<h2>Users</h2>
+<br />
+@if (Session["RoleID"] != null)
+{
+    if ((int)Session["RoleID"] == 3)
+    {
+        <table class="table" tableFormat>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Email</th>
+                <th>Username</th>
+                <th>House</th>
+                <th>User Type</th>
+                <th></th>
+                <th></th>
+            </tr>
+            @foreach (Users user in Model.Users)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(m => user.FirstName)</td>
+                    <td>@Html.DisplayFor(m => user.LastName)</td>
+                    <td>@Html.DisplayFor(m => user.Age)</td>
+                    <td>@Html.DisplayFor(m => user.Gender)</td>
+                    <td>@Html.DisplayFor(m => user.Email)</td>
+                    <td>@Html.DisplayFor(m => user.Username)</td>
+                    @if (user.H_Id == 1)
+                    {
+                        <td>Gryffindor</td>
+                    }
+                    @if (user.H_Id == 2)
+                    {
+                        <td>Slytherin</td>
+                    }
+                    @if (user.H_Id == 3)
+                    {
+                        <td>Ravenclaw</td>
+                    }
+                    @if (user.H_Id == 4)
+                    {
+                        <td>Hufflepuff</td>
+                    }
+                    @if (user.RoleID == 1)
+                    {
+                        <td>Regular</td>
+                    }
+                    @if (user.RoleID == 2)
+                    {
+                        <td>Power</td>
+                    }
+                    @if (user.RoleID == 3)
+                    {
+                        <td>Admin</td>
+                    }
+                    <td>@Html.ActionLink("Edit", "UpdateUser", "Users", routeValues: new { userId = user.UserId }, htmlAttributes: new { @class = "btn btn-sm btn-primary" })</td>
+                    <td>@Html.ActionLink("Remove", "DeleteUser", "Users", routeValues: new { userId = user.UserId }, htmlAttributes: new { @class = "btn btn-sm btn-primary" })</td>
+                </tr>
+            }
+        </table>
+    }
+}
