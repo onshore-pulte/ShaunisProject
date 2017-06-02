@@ -1,0 +1,12 @@
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

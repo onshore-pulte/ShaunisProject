@@ -12,7 +12,7 @@ using DataAccessLayer;
 namespace BusinessLogicLayer
 {
     public class DifficultyLogic
-    {
+    { 
         static BusinessLogicMapperDifficulty _difficultyMapper = new BusinessLogicMapperDifficulty();
         static DifficultyDataAccess _difficultyDataAccess = new DifficultyDataAccess();
 

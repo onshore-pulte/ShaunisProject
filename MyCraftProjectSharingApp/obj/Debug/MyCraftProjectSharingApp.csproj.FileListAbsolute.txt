@@ -1,0 +1,75 @@
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\obj\Debug\MyCraftProjectSharingApp.csprojResolveAssemblyReference.cache
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\roslyn\csc.exe
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\roslyn\vbc.exe
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\MyCraftProjectSharingApp.dll.config
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\MyCraftProjectSharingApp.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\MyCraftProjectSharingApp.pdb
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\BusinessLogicLayer.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\System.Web.Helpers.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\System.Web.Mvc.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\System.Web.Razor.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\System.Web.Webpages.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\DataAccessLayer.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\BusinessLogicLayer.pdb
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\System.Web.Razor.xml
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\System.Web.Webpages.xml
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\System.Web.Helpers.xml
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\System.Web.Mvc.xml
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\bin\DataAccessLayer.pdb
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\obj\Debug\MyCraftProjectSharingApp.dll
+C:\Users\Onshore\Documents\Visual Studio 2015\Projects\Capstone\MyCraftProjectSharingApp\obj\Debug\MyCraftProjectSharingApp.pdb
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\roslyn\csc.exe
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\roslyn\vbc.exe
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\MyCraftProjectSharingApp.dll.config
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\MyCraftProjectSharingApp.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\MyCraftProjectSharingApp.pdb
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\BusinessLogicLayer.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\System.Web.Helpers.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\System.Web.Mvc.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\System.Web.Razor.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\System.Web.Webpages.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\System.Web.Webpages.Razor.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\DataAccessLayer.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\BusinessLogicLayer.pdb
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\System.Web.Razor.xml
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\System.Web.Webpages.xml
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\System.Web.Webpages.Razor.xml
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\System.Web.Helpers.xml
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\System.Web.Mvc.xml
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\DataAccessLayer.pdb
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\bin\DataAccessLayer.dll.config
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\obj\Debug\MyCraftProjectSharingApp.csprojResolveAssemblyReference.cache
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\obj\Debug\MyCraftProjectSharingApp.dll
+C:\Users\Onshore\Desktop\Capstone\MyCraftProjectSharingApp\obj\Debug\MyCraftProjectSharingApp.pdb
